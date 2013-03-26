@@ -1,0 +1,48 @@
+body {
+  background: eeedeb;
+  color: #666;
+  
+  -webkit-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  -moz-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  -o-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+h1{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 24px;
+  color: #444;
+}
+
+h1 small {
+  font-size: .6em;
+  font-weight: 500;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", serif;
+  
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.logo {
+  padding: 50px 0;
+  width: 291px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+::-moz-selection {
+    background: #f4932c;
+}
+
+::selection {
+    background: #f4932c;
+}
