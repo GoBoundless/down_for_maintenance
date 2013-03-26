@@ -1,5 +1,6 @@
 body {
   background: eeedeb;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #666;
   
   -webkit-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
@@ -9,7 +10,6 @@ body {
 }
 
 h1{
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   text-align: center;
   font-size: 24px;
@@ -38,6 +38,10 @@ p {
   display: block;
 }
 
+.tweets{
+  padding: 20px 0;
+  
+}
 
 ::-moz-selection {
     background: #f4932c;
